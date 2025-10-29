@@ -1,0 +1,47 @@
+.sun-blob {
+	position: absolute;
+	top: -2.5rem;
+	left: -5rem;
+	height: 8rem;
+	width: 8rem;
+	background: var(--clr-primary-a0);
+	filter: blur(15px);
+	border-radius: 60% 40% 55% 45% / 55% 65% 35% 45%;
+	animation:
+		sunBlobAnimation 10s ease-in-out infinite,
+		sunGlowPulse 6s ease-in-out infinite;
+	/* Optionally add a mild glowing spread */
+	box-shadow: 0 0 40px 10px var(--clr-primary-a0);
+}
+
+@keyframes sunBlobAnimation {
+	0%,
+	100% {
+		border-radius: 60% 40% 55% 45% / 55% 65% 35% 45%;
+		transform: scale(1) translate(0, 0);
+	}
+	25% {
+		border-radius: 50% 60% 40% 60% / 60% 40% 60% 40%;
+		transform: scale(1.05) translate(5px, -3px);
+	}
+	50% {
+		border-radius: 55% 45% 65% 35% / 45% 55% 65% 35%;
+		transform: scale(1.1) translate(-4px, 3px);
+	}
+	75% {
+		border-radius: 60% 50% 50% 40% / 50% 60% 50% 60%;
+		transform: scale(1.05) translate(2px, -2px);
+	}
+}
+
+@keyframes sunGlowPulse {
+	0%,
+	100% {
+		filter: blur(15px);
+		box-shadow: 0 0 40px 10px var(--clr-primary-a0);
+	}
+	50% {
+		filter: blur(18px);
+		box-shadow: 0 0 55px 15px var(--clr-primary-a0);
+	}
+}

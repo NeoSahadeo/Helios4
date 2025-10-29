@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="709.97913"
+   height="131.0513"
+   viewBox="0 0 187.84864 34.673989"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
+   sodipodi:docname="Helios4.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#141414"
+     inkscape:document-units="px"
+     inkscape:clip-to-page="true"
+     inkscape:zoom="1.6767579"
+     inkscape:cx="994.18049"
+     inkscape:cy="587.44318"
+     inkscape:window-width="1920"
+     inkscape:window-height="1045"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g35">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="187.84863"
+       height="34.673988"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1">
+    <filter
+       inkscape:menu-tooltip="Pressed metal with a rolled edge"
+       inkscape:menu="Bevels"
+       inkscape:label="Pressed Steel"
+       style="color-interpolation-filters:sRGB"
+       id="filter114"
+       x="-0.022257167"
+       y="-0.12057966"
+       width="1.0445143"
+       height="1.2411593">
+      <feGaussianBlur
+         result="result1"
+         stdDeviation="0.020380434782608696"
+         id="feGaussianBlur109" />
+      <feBlend
+         in2="result1"
+         result="result5"
+         mode="multiply"
+         in="result1"
+         id="feBlend109" />
+      <feGaussianBlur
+         in="result5"
+         result="result6"
+         stdDeviation="1.22169384057971"
+         id="feGaussianBlur110" />
+      <feComposite
+         result="result8"
+         in2="result5"
+         in="result6"
+         operator="xor"
+         id="feComposite110" />
+      <feComposite
+         in="result6"
+         result="fbSourceGraphic"
+         operator="xor"
+         in2="result8"
+         id="feComposite111" />
+      <feSpecularLighting
+         in="fbSourceGraphic"
+         result="result1"
+         lighting-color="#ffffff"
+         surfaceScale="2"
+         specularConstant="2.20000005"
+         specularExponent="55"
+         id="feSpecularLighting111">
+        <fePointLight
+           x="-5000"
+           y="-10000"
+           z="20000"
+           id="fePointLight111" />
+      </feSpecularLighting>
+      <feComposite
+         in2="fbSourceGraphic"
+         in="result1"
+         result="result2"
+         operator="in"
+         id="feComposite112" />
+      <feComposite
+         in="fbSourceGraphic"
+         result="result4"
+         operator="arithmetic"
+         k2="1.0809775"
+         k3="1.9612142"
+         in2="result2"
+         id="feComposite113"
+         k1="1.0017881"
+         k4="0" />
+      <feGaussianBlur
+         in="result4"
+         result="result16"
+         stdDeviation="0.5"
+         id="feGaussianBlur113" />
+      <feComposite
+         in2="result4"
+         in="result16"
+         operator="in"
+         result="result91"
+         id="feComposite114" />
+      <feBlend
+         mode="color-burn"
+         in2="result91"
+         id="feBlend114" />
+    </filter>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-167.15453,-90.952056)">
+    <g
+       id="g6"
+       style="fill:#ffd700;fill-opacity:1">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.1091px;line-height:1.2;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffd700;fill-opacity:1;fill-rule:evenodd;stroke-width:0.502708;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         x="166.23241"
+         y="124.93444"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.1091px;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffd700;fill-opacity:1;stroke-width:0.502708"
+           x="166.23241"
+           y="124.93444">Helios 4</tspan></text>
+    </g>
+    <g
+       id="g35"
+       style="fill:#ffd700;fill-opacity:1;filter:url(#filter114)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.1091px;line-height:1.2;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:inline;fill:#ffd700;fill-opacity:1;fill-rule:evenodd;stroke-width:0.502708;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         x="166.23241"
+         y="124.93444"
+         id="text34"><tspan
+           sodipodi:role="line"
+           id="tspan34"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.1091px;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffd700;fill-opacity:1;stroke-width:0.502708"
+           x="166.23241"
+           y="124.93444">Helios 4</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0694px;line-height:1.2;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;display:none;fill:#ffd700;fill-opacity:1;fill-rule:evenodd;stroke-width:0.502709;stroke-linecap:round;stroke-linejoin:round;paint-order:markers fill stroke"
+         x="229.27914"
+         y="141.41846"
+         id="text35"><tspan
+           sodipodi:role="line"
+           id="tspan35"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0694px;font-family:C059;-inkscape-font-specification:'C059, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ffd700;fill-opacity:1;stroke-width:0.502709"
+           x="0"
+           y="0">By Neo Sahadeo</tspan></text>
+    </g>
+  </g>
+</svg>

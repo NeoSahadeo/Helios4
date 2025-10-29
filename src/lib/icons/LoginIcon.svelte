@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 20 20" {...$$props}
+	><!-- Icon from OOUI by OOUI Team - https://github.com/wikimedia/oojs-ui/blob/master/LICENSE-MIT --><path
+		fill="inherit"
+		d="M1 11v6c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V3c0-1.1-.9-2-2-2H3c-1.1 0-2 .9-2 2v6h8V5l4.75 5L9 15v-4z"
+	/></svg
+>
