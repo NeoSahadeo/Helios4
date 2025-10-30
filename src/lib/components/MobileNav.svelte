@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { resolve } from '$app/paths';
 	import HouseIcon from '$lib/icons/HouseIcon.svelte';
 	import PasswordIcon from '$lib/icons/PasswordIcon.svelte';
 	import PlusIcon from '$lib/icons/PlusIcon.svelte';
@@ -11,8 +12,8 @@
 	<header class="glass-card w-full py-2">
 		<nav>
 			<ul class="flex w-full flex-row justify-around">
-				<li><HouseIcon /></li>
-				<li><PasswordIcon /></li>
+				<li><a href={resolve('/u/home')}><HouseIcon /></a></li>
+				<li><a href={resolve('/u/passwords_generator')}><PasswordIcon /></a></li>
 				<li><PlusIcon /></li>
 				<li><ProfileIcon /></li>
 			</ul>

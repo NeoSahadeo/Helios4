@@ -19,10 +19,12 @@
 <article class="flex flex-col items-center">
 	{#if !loading_state.get()}
 		<SearchBar />
-		<div class="mt-12 mb-20 flex flex-col">
+		<div class="mt-12 flex w-full max-w-sm flex-col gap-1">
 			{#each passwords as p, index}
 				<SlidePassword obj={p} {index} />
 			{/each}
 		</div>
+		<div>PAGE NEXT PAGE BACK</div>
+		<div class="mb-20"></div>
 	{/if}
 </article>

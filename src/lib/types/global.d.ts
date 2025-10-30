@@ -9,3 +9,12 @@ export interface PasswordObject {
 	site_url: string;
 	username: string;
 }
+
+export type DialogType = {
+	id?: string;
+	message: string;
+	confirm?: string;
+	reject?: string;
+	callbackconfirm?: (...any) => any | Promise<any>;
+	callbackreject?: (...any) => any | Promise<any>;
+};

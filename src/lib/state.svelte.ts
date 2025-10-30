@@ -8,3 +8,4 @@ function create_state<T>(iv: T) {
 
 export const loading_state = create_state(false);
 export const mobile_state = create_state(false);
+export const dialog_state = create_state(false);
