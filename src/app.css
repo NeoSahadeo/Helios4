@@ -1,16 +1,41 @@
 @import 'tailwindcss';
 @plugin "daisyui";
 
+* {
+	--primary-orange: #ff7000;
+}
+
 body {
 	margin: 0px;
-	background-color: var(--clr-surface-a0);
 	height: 100dvh;
 	min-height: 100dvh;
+}
+
+#bg-image {
+	width: 100vw;
+	height: 100dvh;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	z-index: -50;
+	background-image: url('lib/assets/background.jpg');
+	background-position: right;
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position-x: 60%;
 }
 
 main {
 	height: 100dvh;
 	min-height: 100dvh;
+}
+
+.primary-background {
+	background-color: var(--primary-orange);
+}
+
+.primary-text {
+	color: var(--primary-orange);
 }
 
 .text-primary {
@@ -20,8 +45,8 @@ main {
 @plugin "daisyui/theme" {
 	name: 'black';
 	default: true;
-	prefersdark: true;
-	color-scheme: 'dark';
+	prefersdark: false;
+	color-scheme: 'light';
 	--color-base-100: #121212;
 	--color-base-200: oklch(19% 0 0);
 	--color-base-300: oklch(22% 0 0);
@@ -50,4 +75,64 @@ main {
 	--border: 1px;
 	--depth: 0;
 	--noise: 0;
+}
+
+.zilla-slab-light {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+.zilla-slab-regular {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.zilla-slab-medium {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.zilla-slab-semibold {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 600;
+	font-style: normal;
+}
+
+.zilla-slab-bold {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.zilla-slab-light-italic {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.zilla-slab-regular-italic {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.zilla-slab-medium-italic {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 500;
+	font-style: italic;
+}
+
+.zilla-slab-semibold-italic {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 600;
+	font-style: italic;
+}
+
+.zilla-slab-bold-italic {
+	font-family: 'Zilla Slab', serif;
+	font-weight: 700;
+	font-style: italic;
 }

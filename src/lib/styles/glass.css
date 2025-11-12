@@ -1,11 +1,11 @@
 /* Glassmorphism CSS */
 .glass-element {
-	background: rgba(255, 255, 255, 0.24);
-	backdrop-filter: blur(21px);
-	-webkit-backdrop-filter: blur(21px);
-	border-radius: 8px;
-	border: 0.5px solid rgba(255, 255, 255, 0.33999999999999997);
-	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.05);
+	background: rgba(233, 148, 82, 0.25);
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border-radius: 16px;
+	border: 1px solid rgba(233, 148, 82, 0.35);
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.1);
 }
 
 /* Optional: Add these for better browser support */
@@ -17,8 +17,8 @@
 /* For better performance on mobile */
 @supports (backdrop-filter: blur(1px)) {
 	.glass-element {
-		background: rgba(255, 255, 255, 0.24);
-		backdrop-filter: blur(21px);
+		background: rgba(233, 148, 82, 0.25);
+		backdrop-filter: blur(10px);
 	}
 }
 

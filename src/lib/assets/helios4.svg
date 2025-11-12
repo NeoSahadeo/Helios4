@@ -1,0 +1,19 @@
+<svg width="258" xmlns="http://www.w3.org/2000/svg" height="98" id="screenshot-bcc93f3f-6601-80ad-8007-1941f46404c1" viewBox="0 0 258 98" xmlns:xlink="http://www.w3.org/1999/xlink" fill="none" version="1.1"><style>/* latin-ext */
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(http://localhost:6080/internal/gfonts/font/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYoEf6H2pW2hz.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Zilla Slab';
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url(http://localhost:6080/internal/gfonts/font/zillaslab/v12/dFa5ZfeM_74wlPZtksIFYoEf6HOpWw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+</style><g id="shape-bcc93f3f-6601-80ad-8007-1941f46404c1" rx="0" ry="0"><g id="shape-bcc93f3f-6601-80ad-8007-193d3bd2a15b"><g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="130" y="75.99999999999994" width="128" height="22" rx="0" ry="0"><defs><pattern patternUnits="objectBoundingBox" width="124.36666870117188" height="22.23333740234375" id="fill-0-render-2-0"><g><rect width="124.36666870117188" height="22.23333740234375" style="fill: rgb(255, 112, 0); fill-opacity: 1;"/></g></pattern></defs><g class="fills" id="fills-bcc93f3f-6601-80ad-8007-193d3bd2a15b"><text x="130" y="97.91667175292963" dominant-baseline="ideographic" textLength="124.36666870117188" lengthAdjust="spacingAndGlyphs" style="text-transform: none; font-family: &quot;Zilla Slab&quot;; letter-spacing: normal; font-style: normal; font-weight: 700; white-space: pre; font-size: 18px; text-decoration: rgb(255, 112, 0); direction: ltr; fill: rgb(255, 112, 0); fill-opacity: 1;">by Neo Sahadeo</text></g></g></g><g id="shape-bcc93f3f-6601-80ad-8007-193e9058263c"><g transform="matrix(1.000000, 0.000000, 0.000000, 1.000000, 0.000000, 0.000000)" class="text-container" x="0" y="0" width="256" height="87" rx="0" ry="0"><defs><pattern patternUnits="objectBoundingBox" width="255.46665954589844" height="87.9666748046875" id="fill-0-render-3-0"><g><rect width="255.46665954589844" height="87.9666748046875" style="fill: rgb(255, 112, 0); fill-opacity: 1;"/></g></pattern></defs><g class="fills" id="fills-bcc93f3f-6601-80ad-8007-193e9058263c"><text x="0" y="87.18333435058594" dominant-baseline="ideographic" textLength="255.46665954589844" lengthAdjust="spacingAndGlyphs" style="text-transform: none; font-family: &quot;Zilla Slab&quot;; letter-spacing: normal; font-style: normal; font-weight: 700; white-space: pre; font-size: 72px; text-decoration: rgb(255, 112, 0); direction: ltr; fill: rgb(255, 112, 0); fill-opacity: 1;">Helios 4</text></g></g></g></g></svg>
